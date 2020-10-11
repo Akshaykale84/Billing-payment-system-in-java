@@ -7,7 +7,6 @@ import java.util.Date;
 import java.awt.Button;
 import java.awt.Color;
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
@@ -1398,6 +1397,7 @@ public class Mainpage extends JFrame {
 		//Checkbox item listeners
 		
 		//graphic card
+		
 		cb2gbGC.addItemListener(new ItemListener() {
 			public void itemStateChanged(ItemEvent e) {
 				if(e.getStateChange()==1) {
@@ -1704,6 +1704,7 @@ public class Mainpage extends JFrame {
 		});
 		
 		//PENDRIVE
+		
 		cb32PEN.addItemListener(new ItemListener() {
 			public void itemStateChanged(ItemEvent e) {
 				if(e.getStateChange()==1) {
